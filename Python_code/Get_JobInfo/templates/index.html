@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <meta charset="UTF-8">
+    <title>APP</title>
+
+    <style type="text/css">
+    {#body{background:url() top left;#}
+    {#background-size:100%;}#}
+
+    .header {
+    padding: 80px;
+    text-align: center;
+          width: 100%;
+	height: 100%;
+    color: white;
+            }
+    .juzhong{
+     width: 100px;
+     height: 100px;
+    position: absolute;
+     left: 50%;
+     top: 50%;
+     margin: -50px 0 0 -50px;
+    }
+    select{
+    width:200px;
+	height:36px;
+    }
+    </style>
+</head>
+<body background="../static/index.jpg">
+<div class="header">
+  <h1>数据分析</h1>
+</div>
+
+
+<div >
+
+<select id="jobSel" onchange="selChange()" class="select">
+	  <option value="">请选择职位</option>
+	  <option value="数据挖掘">数据挖掘</option>
+	  <option value="java后端">java后端</option>
+	  <option value="互联网产品经理">互联网产品经理</option>
+	  <option value="图像算法工程师">图像算法工程师</option>
+    </select>
+
+    <input id="send" type="button" value="发送">
+
+
+</div>
+<script src="/static/jquery-3.5.1.min.js"></script>
+<script type="text/javascript">
+  $("#send").click(function () {
+         var option_job=$("#jobSel option:selected").text();
+         var data={
+                   data:JSON.stringify({
+                     'job':option_job,
+                   }),
+         }
+
+         $.ajax({
+           url: "http://127.0.0.1:5000/api",
+           type: "POST",
+           data: {'job':option_job},
+           dataType: "json",
+           success: function (data) {
+               $("#res_img").attr("src","http://127.0.0.1:5000/get_img?filename="+data["filename"])
+               $("#res_img2").attr("src","http://127.0.0.1:5000/get_img?filename="+data["filename2"])
+           },
+           error: function(e) {
+
+           }
+         })
+  })
+</script>
+ <img id="res_img" style="width:800px" src="http://127.0.0.1:5000/get_img?filename={{ fname }}" >
+    <img id="res_img2" style="width:800px" src="http://127.0.0.1:5000/get_img?filename={{ fname }}" >
+</body>
+</html>
