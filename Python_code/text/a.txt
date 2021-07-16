@@ -1,0 +1,12 @@
+﻿haha:hello
+zhh:hi
+haha:how old are you
+zhh:19
+============================
+haha:when?
+zhh:24
+haha:where?
+zhh:wuhan
+============================
+haha:why?
+zhh:because
