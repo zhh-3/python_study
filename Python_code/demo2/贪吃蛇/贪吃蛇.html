@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>贪吃蛇</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="贪吃蛇">
+	<style type="text/css">
+	<!--设置所有标签的外边距为0-->
+	*{margin:0;}
+	/*设置类名为map的标签的样式*/
+	.map{
+		margin:100px auto;
+		/*设置高为600*/
+		height:600px;
+		/*设置宽为900*/
+		width:900px;
+		/*设置背景颜色*/
+		background:#00D0FF;
+		/*设置边框的外边界的宽度，实线，颜色*/
+		border:10px solid #AFAEB2;
+		/*添加圆角边框*/
+		border-radius:8px;
+	}
+	</style>
+
+</head>
+
+<body>
+	<!--放置一个块元素，类名为map-->
+	<div class="map">
+		<!--定义一个画布，id为canvas,高为600，宽为900-->
+		<!--canvas 元素本身是没有绘图能力的。所有的绘制工作必须在 JavaScript 内部完成：-->
+		<canvas id="canvas" height="600" width="900">
+
+		</canvas>
+	</div>
+
+	<!--定义脚本，位置在javascript文件夹下snack文件-->
+	<script src="javascript/snake.js">
+
+</script>
+</body>
+</html>
