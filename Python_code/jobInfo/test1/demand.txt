@@ -1,0 +1,37 @@
+任职要求:<br/>任职要求：<br/>任职要求：<br/>
+任职要求<br/>任职要求<br/>
+任职要求：
+岗位要求：<br/>岗位要求：<br/>岗位要求：<br/>
+【岗位要求】<br/>
+【任职条件】<br/>
+Required Skills:<br/>
+Requirements:<br/>
+任职资格:<br/>
+专业技能：<br/>
+
+
+[必备条件]
+1、 计算机软件或相关专业；统招本科及以上学历（必须）。
+3、 掌握JavaWEB应用相关开发技术，掌握JAVA开发技术
+4、 熟悉数据库开发，如SQL SERVER/Oracle/My SQL等
+5、 精通或熟练使用SSM、SSH、SpringBoot等相关框架技术
+6、 精通或熟练使用Js、Jquery、EasyUI、CSS、DIV、html5、bootstrap，angularjs等前端技术
+7、熟悉分布式、高并发系统的原理和开发
+8、 有团队合作经验，良好的沟通、协调能力，强烈的责任感
+9、 思路清晰，做事有条理，较强的独立处理问题的能力
+[可选条件]
+10.有保险或金融行业项目经验者优先
+11.有带领小团队经验者优先
+
+1.具备3年以上java开发经验
+2.了解微服务架构，熟练掌握spring boot, spring cloud等开发
+3.熟悉Kafka，RabbitMQ等消息队列
+4.了解kubernetes和docker技术
+5. 熟悉MYSQL等数据库查询技术
+1、3年以上Java工作经验；
+2、扎实的java基础，精通Java EE、数据库、缓存、消息队列、索引等技术；
+3、精通分布式架构，熟悉主流的微服务框架，如Spring Cloud、Dubbo、Zookeeper等，并精通其原理；
+4、精通linux常用命令，网络协议，jvm、tomcat、nginx等调优；
+5、有高并发、高性能、高可用大型网站构建经验者优先。
+6、本科及以上学历，重点学校毕业，或者具有一线大厂2年以上工作经验
+

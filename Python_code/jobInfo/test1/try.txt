@@ -1,0 +1,8 @@
+1. 3年以上Java开发经验，良好的Java基础，熟练掌握Java / Groovy / Kotlin 等任意一门JVM语言，熟练掌握MVC编程思想及Spring架构；
+2. 熟练掌握Web应用开发，具有高并发，大数据系统设计、研发、调优经验；
+3. 熟练掌握软件开发流程，具备良好的系统分析、设计能力；
+4. 熟悉MySQL/MongoDB数据库应用开发；
+5. 熟悉Linux环境开发，熟悉常用SHELL命令；
+6. 对缓存技术（Redis / Memcached等）有较深入的应用及研究；
+7. 具有 Spring Cloud / Eureka / Consul / Hadoop / HBase / Spark / Storm 等经验者优先；
+8. 具备较强的沟通能力；责任心强，对技术有执着热情，抗压能力强者优先。
